@@ -1,0 +1,264 @@
+.body{
+    background-color: #f7f4ff;
+}
+
+.card{
+    width: 640px;
+    margin: 80px auto;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 0px 14px 52px -20px #8675B4;
+    
+}
+
+.card::after{
+    content: '';
+    position: absolute;
+    width: 421px;
+    top: -75px;
+    left: 110px;
+    right: 0px;
+    bottom: -74px;
+    background-color: #EFEBFD;
+    border-radius: 31px;
+    z-index: -1;
+}
+
+.card .box{
+    margin-top: 72px;
+    margin-left: 72px;
+}
+
+
+.sourch{
+    width: 348px;
+    padding: 10px;
+    line-height: 32px;
+    margin-top: 72px;
+    border-radius: 4px;
+    border: 1px solid #DBD5EC
+}
+
+.sourch .icon{
+    width: 22px;
+    height: 22px;
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+.sourch input{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: transparent;
+    border: none;
+    width: calc(100% - 22px);
+}
+
+.sourch input:focus{
+    outline: none;
+}
+
+.map{
+    width: 136px;
+    height: 54px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #281A51;
+    margin-left: 12px;
+}
+
+.map .icon{
+    width: 22px;
+    height: 22px;
+   color: #FFFFFF;
+   font-size: 15px;
+   
+}
+
+.map .map-text{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+   
+}
+
+.box-1{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #FFECEC;
+    margin-top: 32px;
+}
+
+.box-1 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-1 .fur{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
+
+.box-2{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #F7ECFF;
+    margin-left: 14px;
+} 
+
+.box-2 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-2 .pro{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
+
+.box-3{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #ECF0FF;
+    margin-left: 14px;
+} 
+
+.box-3 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-3 .job{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
+
+.box-4{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #D7F9F3;
+    margin-left: 14px;
+} 
+
+.box-4 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-4 .tr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
+
+.box-5{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #E2FFD4;
+    margin-top: 32px;
+    margin-bottom: 72px;
+}
+
+.box-5 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-5 .bot{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
+
+.box-6{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBD5EC;
+    box-shadow: 0px 14px 16px 0px #290B801A;
+    margin-left: 14px;
+}
+
+.box-6 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-6 .mc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
+
+.box-7{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #FFF3C9;
+    margin-left: 14px;
+}
+
+.box-7 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-7 .eco{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
+
+.box-8{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #FFD9C9;
+    margin-left: 14px;
+}
+
+.box-8 i{
+    width: 32px;
+    height: 32px;
+    font-size: 25px;
+}
+
+.box-8 .hol{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #281A51;
+}
